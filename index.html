@@ -1,39 +1,53 @@
-<!DOCTYPE HTML>
-<html lang="en">
+<style>
+    /* Base About section text color */
+    #about {
+        color: #ffffff;
+    }
 
-<head>
-    <title>Jones Osele | Data Professional Portfolio</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description"
-        content="Jones Osele - Data Analyst & Business Intelligence Professional specializing in Excel, Power BI, SQL, Python and Tableau." />
+    #about h2,
+    #about p,
+    #about li {
+        color: #ffffff;
+        font-weight: normal; /* removes bold if template makes it bold */
+    }
 
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <noscript>
-        <link rel="stylesheet" href="assets/css/noscript.css" />
-    </noscript>
+    /* Paragraph spacing */
+    #about p {
+        line-height: 1.6; /* more readable */
+        font-size: 1rem; /* default desktop size */
+    }
 
-    <!-- SIMPLE WHITE TEXT FIX -->
-    <style>
-        #about {
-            color: #ffffff;
+    #about li {
+        font-size: 0.95rem; /* slightly smaller for list items */
+    }
+
+    /* Responsive adjustments for mobile */
+    @media (max-width: 768px) {
+        #about h2 {
+            font-size: 1.4rem; /* smaller heading on mobile */
         }
-        #about h2,
-        #about p,
-        #about li {
-            color: #ffffff;
-        }
-
         #about p {
-            line-height: 2.5;
+            font-size: 0.95rem; /* smaller text on mobile */
+            line-height: 1.5;
         }
-    </style>
+        #about li {
+            font-size: 0.9rem;
+        }
+    }
 
-</head>
-
-<body class="is-preload">
-
-<div id="wrapper" class="fade-in">
+    @media (max-width: 480px) {
+        #about h2 {
+            font-size: 1.2rem; /* even smaller for small phones */
+        }
+        #about p {
+            font-size: 0.9rem;
+            line-height: 1.4;
+        }
+        #about li {
+            font-size: 0.85rem;
+        }
+    }
+</style>
 
     <!-- Intro Section -->
     <section id="intro">
@@ -347,6 +361,7 @@
 		</body>
 	
 	</html>
+
 
 
 
